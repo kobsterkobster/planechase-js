@@ -19,7 +19,7 @@ Roadmap:
 3. ~~Shuffle function~~ ✅
 4. ~~UI (card display)~~ ✅
 5. ~~Migrate card library~~ ✅
-6. Toggle for each card
+6. Toggle for each card ✅
 8. Virtual planar die to roll
 9. Saving custom lists
 10. UI Optimization
