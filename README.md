@@ -21,7 +21,7 @@ Roadmap:
 5. ~~Migrate card library~~ ✅
 6. Toggle for each card ✅
 8. Virtual planar die to roll ✅
-9. Saving custom lists
+9. Saving custom lists --> to be realized via URL get, once migrated to GitHub because codepen doesn't like URL Queries
 10. UI Optimization
    9.1. Full-screen card view
    9.2. Link to rulings
@@ -37,20 +37,3 @@ Roadmap:
 
 
 
-Next step:
-Toggle for each card
-
-How to implement:
-
-1. Add a settings button (gear icon) to the HTML, which will be used to open the card selection menu.
-2. Create a modal or a separate section in the HTML to display the card list, checkboxes, "Select All", "Deselect All", and "Save" button. Initially, this section should be hidden.
-3. When the settings button is clicked, populate the card list with all Plane and Phenomenon cards from the card library, each with a corresponding checkbox. The list should be sorted by card type.
-4. Implement the "Select All" and "Deselect All" buttons for both Plane and Phenomenon cards. These buttons should select or deselect all checkboxes within their respective card type sections.
-5. When the "Save" button is clicked, gather all checked cards and re-initialize the Planar Deck with the selected cards. Close the card selection menu and return to the main app view.
-6. Update the `initializeApp()` function to shuffle the deck after the selected cards have been loaded.
-
-For the add-ons that will be implemented later:
-1. Add event listeners to card names in the card selection menu. When clicked/tapped, display the card image in a small pop-up or overlay without leaving the page.
-2. Implement cookies to store the user's custom settings in their browser. Load these settings when the app is initialized, and update the cookies whenever the user saves their custom settings.
-
-By following these steps, you can implement the card toggle feature and its enhancements in an organized manner.
