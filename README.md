@@ -23,6 +23,7 @@ Roadmap:
 8. Virtual planar die to roll ✅
 9. Saving custom lists --> to be realized via URL get, once migrated to GitHub because codepen doesn't like URL Queries
 10. UI Optimization
+   text window same size --> figure out which one is longest text and make it big enough for that!
    9.1. Full-screen card view
    9.2. Link to rulings
 11. Special Cards
